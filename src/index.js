@@ -12,6 +12,10 @@ switch(url){
         res.end('<h1>About Page</h1>')
         break;
 
+    case '/register':
+        res.end('<h1>Register Page</h1>')
+         break;
+
     default:
            res.end('<h1>Page Not Found</h1>')
         break;
